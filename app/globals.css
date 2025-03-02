@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .button {
+    @apply flex h-[60px] justify-center items-center rounded-[20px] gap-[12px] bg-primary;
+  }
+  .button-1 {
+    @apply flex h-[60px] justify-center items-center rounded-[20px] gap-[12px] bg-background;
+  }
+  
+  .button-1 span, .button span {
+    @apply text-content text-center text-[16px] font-semibold leading-[140%];
+  }
+  
+  .button img {
+    @apply w-[20px] h-[20px];
+  }
+  
+  .button--trans {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  
+  .button--trans:hover {
+    @apply scale-95 origin-center;
+  }
+  
+  .trans {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .trans:hover {
+    @apply scale-95 origin-center;
+  }
