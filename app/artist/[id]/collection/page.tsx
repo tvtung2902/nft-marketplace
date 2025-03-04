@@ -1,7 +1,6 @@
-import { getCollectionByCreator } from "@/app/_service/collectionService";
-import ListNFTCardSkeleton from "@/app/component/skeleton/nft/list-nft-card-skeleton";
 import { Suspense } from "react";
 import CollectionList from "./collection-list";
+import ListCollectionCardSkeleton from "@/app/component/skeleton/collection/list-collection-card";
 
 export default async function NFT_Onwned(
   {
@@ -13,10 +12,9 @@ export default async function NFT_Onwned(
   const { id } = await params
   return (
     <>
-      <Suspense fallback={<ListNFTCardSkeleton numberCard={3} />}>
-        <CollectionList creatorId = {id}/>
+      <Suspense fallback={<ListCollectionCardSkeleton numberCard={3} />}>
+        <CollectionList creatorId = {Number(id)}/>
       </Suspense >
-
     </>
   )
 }
