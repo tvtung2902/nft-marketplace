@@ -6,7 +6,7 @@ export default async function RankingListUser({ tab }: { tab: string }) {
     return (
         <>
             {users.map((user, index) => (
-                <RankingUser key={user.id} index={index} user={user} />
+                <RankingUser key={index} index={index} user={user} />
             ))}
         </>
     )

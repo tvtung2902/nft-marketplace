@@ -3,6 +3,8 @@ import { get } from "../_util/request";
 
 const api:string = 'users'
 
+const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+
 export const getUserById = async (id: number):Promise<User[]> => {
     const path:string = `${api}?id=${id}`;
     const response:User[] = await get(path);
@@ -20,6 +22,7 @@ export const getItemCountByUserId= async (id: number):Promise<ItemCount> => {
 
 // fake data
 export const getUsersRanking = async (tab:string):Promise<User[]> =>{
+    await delay(1000)
     const path:string = `${api}?_sort=nfts_sold&_order=asc&tab=${tab}`;
     const response:User[] = await get(path);
     return response;

@@ -1,9 +1,13 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+    const pathName = usePathname();
+    const background = pathName.match('/ranking') ? 'bg-tertiary' : '';
     return (
-        <footer className="py-10">
+        <footer className={`py-10 ${background}`}>
             <div
                 className="lg:max-w-[1050px]  md:max-w-[690px] max-w-[315px] mx-auto flex flex-col lg:gap-[30px] md:gap-[49px] gap-[35px]">
                 <div
