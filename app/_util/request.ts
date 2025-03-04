@@ -1,4 +1,3 @@
-import { console } from "inspector";
 // import { ApiResponse } from "../_interface/api";
 
 const API_SERVER = "http://localhost:3001/";

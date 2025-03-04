@@ -1,7 +1,5 @@
 import { User } from "@/app/_interface/user";
-import NFT_List from "@/app/component/nft/nft-list";
 import Image from "next/image";
-import Link from "next/link";
 export default function ImageOfUser({user, }: {user: User}) {
     return (
         <>

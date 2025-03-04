@@ -1,16 +1,17 @@
 import { getNftsByOwner } from "@/app/_service/nftService";
-import NFT_List from "@/app/component/nft/nft-list";
+import { Suspense } from "react";
+import NftList from "@/app/component/nft/nft-list";
+import ListNFTCardSkeleton from "@/app/component/skeleton/nft/list-nft-card-skeleton";
 
 export default async function NFT_Owner({
-    params,
-  }: {
-    params: Promise<{ id: string }>
-  }){
-    const { id } = await params
-    const nfts = await getNftsByOwner(Number(id));
-    return(
-        <>  
-            <NFT_List nfts={nfts}/>
-        </>
-    )
+  params,
+}: {
+  params: Promise<{ id: string }>
+}) {
+  const { id } = await params
+  return (
+    <Suspense fallback={<ListNFTCardSkeleton numberCard={6} />}>
+      <NftList functionFetchAPI={() => getNftsByOwner(Number(id))} />
+    </Suspense>
+  )
 }

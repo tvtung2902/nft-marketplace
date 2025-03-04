@@ -1,11 +1,7 @@
 import { User } from "@/app/_interface/user";
-import NFT_List from "@/app/component/nft/nft-list";
 import Image from "next/image";
-import Link from "next/link";
-import { use } from "react";
 
 export default function UserContent({user, }: {user: User}) {
-    console.log("user11111: ", user);
     return (
     <>
         <section className="lg:max-w-[1050px] md:max-w-[690px] max-w-[315px] mx-auto py-10 flex flex-col gap-[30px]">

@@ -16,7 +16,7 @@ export default function CollectionCard({collection,}:{collection: Collection}) {
                     </div>
                 </div>
             </div>
-            <div className="trending-collection__content  bg-background p-0 flex flex-col gap-[10px]">
+            <div className="trending-collection__content p-0 flex flex-col gap-[10px]">
                 <h3 className="text-[22px] font-semibold leading-[140%] capitalize inline">{collection.name}</h3>
                 <div className=" trending-collection__info flex items-center gap-3">
                     <Image width={24} height={24} className="w-6 h-6 rounded-[50%] object-cover" src="https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-88@2x.png"
