@@ -51,19 +51,19 @@ export default function UserContent({user, }: {user: User}) {
                     <h5 className="text-secondary font-space-mono lg:text-[22px] text-[16px] font-bold leading-[160%] capitalize">Links
                     </h5>
                     <div className="flex gap-[10px]">
-                        <a className="w-6 h-6 object-cover" href={user.url_website}>
+                        <a className=" object-cover" href={user.url_website}>
                             <Image width={32} height={32} src="/assets/images/discordlogo-1@2x.svg" alt="discord" />
                         </a>
-                        <a className="w-6 h-6 object-cover" href={user.url_youtube}>
+                        <a className="object-cover" href={user.url_youtube}>
                             <Image width={32} height={32} src="/assets/images/youtubelogo-1@2x.svg" alt="youtube" />
                         </a>
-                        <a className="w-6 h-6 object-cover" href={user.url_twitter}>
+                        <a className=" object-cover" href={user.url_twitter}>
                             <Image width={32} height={32} src="/assets/images/twitterlogo-1@2x.svg" alt="twitter" />
                         </a>
-                        <a className="w-6 h-6 object-cover" href={user.url_instagram}>
+                        <a className=" object-cover" href={user.url_instagram}>
                             <Image width={32} height={32} src="/assets/images/instagramlogo-1@2x.svg" alt="instagram" />
                         </a>
-                        <a className="w-6 h-6 object-cover" href={user.url_discord}>
+                        <a className=" object-cover" href={user.url_discord}>
                             <Image width={32} height={32} src="/assets/images/twitterlogo-1@2x.svg" alt="twitter" />
                         </a>
                         

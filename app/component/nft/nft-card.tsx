@@ -1,16 +1,10 @@
 import { NFT } from "@/app/_interface/nft";
 import Image from "next/image";
 import Link from "next/link";
-import { Suspense } from "react";
-import { Skeleton } from "antd"; // Import Skeleton from Ant Design
-import NFTCardSkeleton from "../skeleton/nft/nft-card-skeleton";
 
 export default function NFT_Card({ nft }: { nft: NFT }) {
     console.log("nft", nft);
     return (
-        // <Suspense
-        //     fallback={<NFTCardSkeleton />}
-        // >
             <Link href="#" className="flex w-[330px] flex-col trans">
                 <Image
                     width={296}
@@ -47,6 +41,5 @@ export default function NFT_Card({ nft }: { nft: NFT }) {
                     </div>
                 </div>
             </Link>
-        // </Suspense>
     );
 }

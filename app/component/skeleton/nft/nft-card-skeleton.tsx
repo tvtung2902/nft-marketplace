@@ -4,7 +4,7 @@ import { Skeleton } from "antd";
 
 const NFTCardSkeleton = () => {
   return (
-    <a href="#" className="flex w-[330px] flex-col trans">
+    <div className="flex w-[330px] flex-col trans">
       <Skeleton.Image
         style={{ width: "100%", height: 296, borderRadius: "20px 20px 0 0" }}
         active
@@ -28,7 +28,7 @@ const NFTCardSkeleton = () => {
           </div>
         </div>
       </div>
-    </a>
+    </div>
   );
 };
 
