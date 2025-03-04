@@ -37,6 +37,196 @@
             ],
             "follower":[2, 3, 4, 5],
             "following": [2, 3, 6]
+        },
+        {
+            "id": 1,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-24@2x.png",
+            "name": "Nolan Mango",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total-sales": 34.53,
+            "nfts_sold": 70,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 3,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-36@2x.png",
+            "name": "Animakid",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total-sales": 34.53,
+            "nfts_sold": 50,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 1,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-24@2x.png",
+            "name": "Nolan Mango",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total-sales": 34.53,
+            "nfts_sold": 70,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 1,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-36@2x.png",
+            "name": "Animakid",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total-sales": 34.53,
+            "nfts_sold": 50,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 1,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-24@2x.png",
+            "name": "Nolan Mango",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total-sales": 34.53,
+            "nfts_sold": 70,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
         }
     ],
     "nfts": [
