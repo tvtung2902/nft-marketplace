@@ -1,7 +1,7 @@
 import UserContent from "./user-content";
 import ImageOfUser from "./user-img";
 import { getItemCountByUserId, getUserById } from "@/app/_service/userService";
-import TabNav from "@/app/component/tab-nav";
+import TabNav from "@/app/_component/tab-nav";
 
 export default async function LayoutArtistPage({
     children,

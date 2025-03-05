@@ -1,17 +1,15 @@
-import { Suspense } from "react";
-import { getAllCollectionsCount } from "../_service/collectionService";
-import { getAllNftsCount } from "../_service/nftService";
-import HeadLine from "../component/headline";
-import TabNav from "../component/tab-nav";
+import HeadLine from "../_component/headline";
+import TabNav from "../_component/tab-nav";
 import MarketplaceSearch from "./marketplace-search";
-import NftSearch from "./marketplace-search";
-import NFTCardSkeleton from "../component/skeleton/nft/nft-card-skeleton";
+import { getAllNftsCount } from "@/app/_service/nftService";
+import { getAllCollectionsCount } from "@/app/_service/collectionService";
 
 export default async function LayoutMarketplace({
-    children,
+    children, 
 }: {
     readonly children: React.ReactNode;
 }) {
+    // if(true) return null
     const nftsCountPromise = getAllNftsCount();
     const collectionsCountPromise = getAllCollectionsCount()
     // parallel
@@ -19,13 +17,13 @@ export default async function LayoutMarketplace({
 
     const list = [
         {
-            link: '/nft',
+            link: '/marketplace/nft',
             sublink: 'nft',
             title: 'Nfts',
             number: nftsCount
         },
         {
-            link: '/collection',
+            link: '/marketplace/collection',
             sublink: 'collection',
             title: 'Collections',
             number: collectionsCount

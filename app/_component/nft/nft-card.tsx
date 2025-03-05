@@ -2,10 +2,9 @@ import { NFT } from "@/app/_interface/nft";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function NFT_Card({ nft }: { nft: NFT }) {
-    console.log("nft", nft);
+export default function NFT_Card({ nft, isScroll= false }: { nft: NFT, isScroll?:boolean }) {
     return (
-            <Link href="#" className="flex w-[330px] flex-col trans">
+            <Link href={`/nft/${nft.id}`} className="flex w-[330px] flex-col trans" scroll={isScroll}>
                 <Image
                     width={296}
                     height={238}

@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import CollectionList from "./collection-list";
-import ListCollectionCardSkeleton from "@/app/component/skeleton/collection/list-collection-card";
+import ListCollectionCardSkeleton from "@/app/_component/skeleton/collection/list-collection-card";
 
 export default async function NFT_Onwned(
   {

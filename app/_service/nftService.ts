@@ -20,10 +20,17 @@ export const getNftsByOwner = async (ownerId: number):Promise<NFT[]> => {
     return response;
 }
 
-export const getAllNftByTitle = async (title: string):Promise<NFT[]> => {
+export const getAllNftByTitle = async (title: string=""):Promise<NFT[]> => {
     await delay(500)
     const path:string = `${api}?title=${title}`;
     const response:NFT[] = await get(path);
+    return response;
+}
+
+export const getNftsById = async (id: number):Promise<NFT> => {
+    await delay(1000)
+    const path:string = `${api}/${id}`;
+    const response:NFT = await get(path);
     return response;
 }
 

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Space_Mono, Work_Sans } from "next/font/google";
 import "./globals.css";
-import Header from "./component/layout/header";
-import Footer from "./component/layout/footer";
+import Header from "./_component/layout/header";
+import Footer from "./_component/layout/footer";
 import Link from "next/link";
 
 const workSans = Work_Sans({ subsets: ["latin"], variable: "--font-main" });
