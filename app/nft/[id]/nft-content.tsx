@@ -1,11 +1,11 @@
 import Auction from "@/app/_component/auction";
 import ListNFTCardSkeleton from "@/app/_component/skeleton/nft/list-nft-card-skeleton";
-import { getAllNftByTitle, getNftsById } from "@/app/_service/nftService";
-import NftList from "@/app/artist/[id]/nft-list";
+import { getAllNftByTitle, getNftsByCreator, getNftsById } from "@/app/_service/nftService";
 import Image from "next/image";
 import Link from "next/link";
 import { Suspense } from "react";
 import NftListOfUser from "./nft-list-of-user";
+import NftList from "@/app/artist/[id]/nft-list";
 
 export default async function NftContent({ id }: { id: number }) {
     const nft = await getNftsById(id)
@@ -28,7 +28,7 @@ export default async function NftContent({ id }: { id: number }) {
                     </div>
 
                     <div className="NFT-info__wrapper-right md:row-span-2 md:justify-self-end">
-                        <Auction targetTime={targetTime}/>
+                        <Auction targetTime={targetTime} />
                     </div>
 
                     <div className="NFT-info__info-main flex flex-col gap-[30px]">
@@ -92,8 +92,19 @@ export default async function NftContent({ id }: { id: number }) {
                     </div>
                 </div>
             </section>
+            <section className="py-[80px]">
+                <div className="wrap-all lg:max-w-[1050px]  md:max-w-[690px] max-w-[315px] mx-auto md:grid md:grid-cols-2 flex flex-col gap-y-[60px]">
+                    <h2 className="ntf-card__heading lg:text-[38px] text-[28px]  font-semibold leading-[120%] capitalize ">More from this artist</h2>
+                    <Link href={`/artist/${nft.creator_id}`} className="button-1 trans md:order-none   order-3 md:justify-self-end px-[50px] bg-background border-2 border-primary">
+                        <Image width={20} height={20} src="../assets/images/ArrowRight.svg" alt="icon" />
+                        <span>Go To Artist Page</span>
+                    </Link>
+                    <Suspense fallback={<ListNFTCardSkeleton numberCard={6} />}>
+                        <NftList functionFetchNfts={() => getNftsByCreator(nft.creator_id)} isScroll={true} bgColorCardContent='tetiarary'/>
+                    </Suspense>
+                </div>
+            </section>
 
-            <NftListOfUser creatorId={nft.creator_id}/>                    
         </>
     )
 }
