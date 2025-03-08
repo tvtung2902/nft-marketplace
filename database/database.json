@@ -8,28 +8,454 @@
             "name": "Animakid",
             "wallet_address": "0xc0E3...B79C",
             "volume": "250k",
-            "total-sales": 34.53,
+            "total_sales": 34.53,
             "nfts_sold": 50,
             "bio": "The Internet's Friendliest Designer Kid.",
             "created": 302,
             "owned": 67,
             "collections": 4,
-            "url_website": "https://animakid.com",
-            "url_discord": "https://animakid.com",
-            "url_youtube": "https://animakid.com",
-            "url_twitter": "https://animakid.com",
-            "url_instagram": "https://animakid.com",
-            "follower": [
-                2,
-                3,
-                4,
-                5
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
             ],
-            "following": [
-                2,
-                3,
-                6
-            ]
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 2,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-98@2x.png",
+            "name": "Nolan Mango",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total_sales": 30.53,
+            "nfts_sold": 70,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 3,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-99@2x.png",
+            "name": "Digilab",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total_sales": 34.53,
+            "nfts_sold": 50,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 4,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-100@2x.png",
+            "name": "Gravityone",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total_sales": 30.53,
+            "nfts_sold": 70,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 5,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-101@2x.png",
+            "name": "Juanie",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total_sales": 34.13,
+            "nfts_sold": 50,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 6,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-1@2x.png",
+            "name": "Fox",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total_sales": 29.30,
+            "nfts_sold": 70,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 7,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-103@2x.png",
+            "name": "Shroomie",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total_sales": 31.53,
+            "nfts_sold": 50,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 8,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-104@2x.png",
+            "name": "Robotica",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total_sales": 29.12,
+            "nfts_sold": 70,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 9,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-105@2x.png",
+            "name": "Rustyrobot",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total_sales": 28.53,
+            "nfts_sold": 50,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 10,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-107@2x.png",
+            "name": "Dotgu",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total_sales": 28.44,
+            "nfts_sold": 70,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 11,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-108@2x.png",
+            "name": "Ghiblier",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total_sales": 27.11,
+            "nfts_sold": 70,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
+        },
+        {
+            "id": 12,
+            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+            "avatar": "https://www.queppelin.com/wp-content/uploads/2021/12/Momento-quater-mascot-nft.jpg",
+            "name": "Nolan Mango",
+            "wallet_address": "0xc0E3...B79C",
+            "volume": "250k",
+            "total_sales": 34.53,
+            "nfts_sold": 70,
+            "bio": "The Internet's Friendliest Designer Kid.",
+            "created": 302,
+            "owned": 67,
+            "collections": 4,
+            "links": [
+                {
+                    "type": "website",
+                    "url": "https://animakid.com"
+                },
+                {
+                    "type": "discord",
+                    "url": "https://discord.com/invite/animakid"
+                },
+                {
+                    "type": "youtube",
+                    "url": "https://www.youtube.com/c/animakid"
+                },
+                {
+                    "type": "twitter",
+                    "url": "https://twitter.com/animakid"
+                },
+                {
+                    "type": "instagram",
+                    "url": "https://instagram.com/animakid"
+                }
+            ],
+            "follower":[2, 3, 4, 5],
+            "following": [2, 3, 6]
         }
     ],
     "nfts": [
@@ -197,49 +623,50 @@
             "id": 1,
             "name": "Art",
             "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/paintbrush-1@2x.svg",
-            "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-57@2x.png"
+            "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-54@2x.png"
         },
         {
             "id": 2,
             "name": "Collectibles",
-            "icon_url": "https://example.com/icons/collectibles.svg",
-            "background_image": "https://example.com/images/bg-collectibles.jpg"
+            "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/swatches-1@2x.svg",
+            "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-55@2x.png"
+
         },
         {
             "id": 3,
             "name": "Music",
-            "icon_url": "https://example.com/icons/music.svg",
-            "background_image": "https://example.com/images/bg-music.jpg"
+            "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/musicnotes-1@2x.svg",
+            "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-56@2x.png"
         },
         {
             "id": 4,
             "name": "Photography",
-            "icon_url": "https://example.com/icons/photography.svg",
-            "background_image": "https://example.com/images/bg-photography.jpg"
+            "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/camera-1@2x.svg",
+            "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-57@2x.png"
         },
         {
             "id": 5,
             "name": "Video",
-            "icon_url": "https://example.com/icons/video.svg",
-            "background_image": "https://example.com/images/bg-video.jpg"
+            "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/videocamera-1@2x.svg",
+            "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-58@2x.png"
         },
         {
             "id": 6,
             "name": "Utility",
-            "icon_url": "https://example.com/icons/utility.svg",
-            "background_image": "https://example.com/images/bg-utility.jpg"
+            "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/magicwand-1@2x.svg",
+            "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-59@2x.png"
         },
         {
             "id": 7,
             "name": "Sport",
-            "icon_url": "https://example.com/icons/sport.svg",
-            "background_image": "https://example.com/images/bg-sport.jpg"
+            "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/basketball-1@2x.svg",
+            "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-60@2x.png"
         },
         {
-            "id": 8,
+            "id": 5,
             "name": "Virtual Worlds",
-            "icon_url": "https://example.com/icons/virtual-worlds.svg",
-            "background_image": "https://example.com/images/bg-virtual-worlds.jpg"
+            "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/planet-1@2x.svg",
+            "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-61@2x.png"
         }
     ]
 }

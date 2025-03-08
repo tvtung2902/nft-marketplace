@@ -29,8 +29,16 @@ export const getAllNftByTitle = async (title: string=""):Promise<NFT[]> => {
 
 export const getNftsById = async (id: number):Promise<NFT> => {
     await delay(1000)
-    const path:string = `${api}/${id}`;
-    const response:NFT = await get(path);
+    const path:string = `${api}?id=${id}`;  
+    const response:NFT[] = await get(path);
+    return response[0];
+}
+
+// limit
+export const getNftsLimit3 = async ():Promise<NFT[]> => {
+    await delay(1000)
+    const path:string = `${api}?_limit=3`;  
+    const response:NFT[] = await get(path);
     return response;
 }
 

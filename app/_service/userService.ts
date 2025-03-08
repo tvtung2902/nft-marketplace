@@ -9,6 +9,12 @@ export const getUserById = async (id: number):Promise<User[]> => {
     return response;
 }
 
+export const getTopArtist = async ():Promise<User[]> => {
+    const path:string = `${api}`;
+    const response:User[] = await get(path);
+    return response;
+}
+
 // hard code
 export const getItemCountByUserId= async (id: number):Promise<ItemCount> => {
     return {

@@ -4,12 +4,12 @@ import Image from "next/image";
 export default function CollectionCard({collection,}:{collection: Collection}) {
     return (
         <div className="card flex flex-col items-start gap-4 flex-1">
-            <div className="photo-and-number flex flex-col items-start gap-4 self-stretch w-[330px]">
+            <div className="photo-and-number flex flex-col items-start gap-4 self-stretch md:w-[330px] w-[315px]">
                 <Image width={330} height={330} src={collection.cover_image} alt="image-primary" className="photo-primary w-full rounded-2xl trans" />
-                <div className="frame flex items-start gap-4 self-stretch h-[100px]">
-                    <Image className="h-full flex-1 rounded-2xl object-cover trans" width={100} height={100} src={collection.preview_images[0]} alt="image-secondary" />
-                    <Image className="h-full flex-1 rounded-2xl object-cover trans" width={100} height={100} src={collection.preview_images[1]} alt="image-secondary" />
-                    <div className="trans number-additional h-full flex flex-col justify-center items-center gap-2 flex-1 bg-primary rounded-2xl px-4 py-8">
+                <div className="frame flex items-start gap-[15px] self-stretch md:h-[100px] h-[95px]">
+                    <Image className="h-full rounded-2xl object-cover trans" width={100} height={100} src={collection.preview_images[0]} alt="image-secondary" />
+                    <Image className="h-full rounded-2xl object-cover trans" width={100} height={100} src={collection.preview_images[1]} alt="image-secondary" />
+                    <div className="number-additional trans h-full flex flex-col justify-center items-center gap-2 bg-primary rounded-2xl px-4 py-8 md:w-[100px] w-[95px]">
                         <span className="text-[22px] font-bold leading-[160%] capitalize font-space-mono">
                             {collection.nft_count}+
                         </span>

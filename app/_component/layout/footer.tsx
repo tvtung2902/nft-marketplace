@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 export default function Footer() {
     const pathName = usePathname();
     // const background = (pathName.match('/ranking') || pathName.match(/^nft\/\d+$/)) ? 'bg-tertiary' : '';
-    const background = (/^\/ranking$/.test(pathName) || /^\/nft\/\d+$/.test(pathName)) ? 'bg-tertiary' : '';
+    const background = (/^\/ranking$/.test(pathName) || /^\/nft\/\d+$/.test(pathName) || pathName.match('/')) ? 'bg-tertiary' : '';
 
     return (
         <footer className={`py-10 ${background}`}>
@@ -57,12 +57,12 @@ export default function Footer() {
                                 updates straight
                                 to your inbox.</p>
                             <form
-                                className="flex md:flex-row flex-col items-center justify-center rounded-[20px] md:bg-white bg-background md:gap-0 gap-[15px] md:h-[60px] w-full md:w-[420px]">
+                                className={`flex md:flex-row flex-col items-center justify-center rounded-[20px] md:bg-white  ${background} md:gap-0 gap-[15px] md:h-[60px] w-full md:w-[420px]`}>
                                 <input
                                     className="px-5 py-4 rounded-2xl h-15 text-base 
                 font-normal leading-[140%] text-background bg-white focus:outline-none placeholder:text-[16px] w-full h-[46px] md:h-full"
                                     type="text" placeholder="Enter your email here" />
-                                <button className="button button--trans px-[50px] w-full md:w-fit h-[46px] md:h-full">
+                                <button className="button button--trans md:px-[50px] w-full md:w-fit h-[46px] md:h-full">
                                     <span>Subscribe</span>
                                 </button>
                             </form>

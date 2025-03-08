@@ -21,7 +21,7 @@ export default function Header() {
           <Image
             width={32}
             height={32}
-            className="w-6 h-6 lg:w-full lg:h-full"
+            className="w-6 h-6 lg:w-8 lg:h-8"
             src="/assets/images/logo.png"
             alt="logo"
           />

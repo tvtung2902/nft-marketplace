@@ -4,9 +4,10 @@ import { useState, useEffect } from "react";
 
 interface CountdownProps {
     targetTime: number;
+    isHiddenBtn?: boolean;
 }
 
-const Auction: React.FC<CountdownProps> = ({ targetTime }) => {
+const Auction: React.FC<CountdownProps> = ({ targetTime, isHiddenBtn = false }) => {
     const calculateTimeLeft = () => {
         const difference = targetTime - Date.now();
         if (difference > 0) {
@@ -51,11 +52,11 @@ const Auction: React.FC<CountdownProps> = ({ targetTime }) => {
                     </div>
                 </div>
             </div>
-            <Link href='/bid' className={`button trans text-[16px] font-semibold leading-[140%]`} style={{
+            {!isHiddenBtn && <Link href='/bid' className={`button trans text-[16px] font-semibold leading-[140%]`} style={{
                 cursor: isExpired ? "not-allowed" : "pointer",
                 pointerEvents: isExpired ? "none" : "auto",
                 background: isExpired ? '#6B7280' : '#A259FF' 
-            }}>Place Bid</Link>
+            }}>Place Bid</Link>}
         </div>
     )
 };

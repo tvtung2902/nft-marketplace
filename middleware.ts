@@ -8,10 +8,14 @@ export function middleware(request: NextRequest) {
   if (segments[1] === 'artist' && segments[2]) {
     return NextResponse.redirect(new URL(`/artist/${segments[2]}/created`, request.url));
   }
+  else if(pathname.match('marketplace')){
+    return NextResponse.redirect(new URL(`/marketplace/nft`, request.url));
+  }
 
   return NextResponse.next();
 }
 
 export const config = {
-  matcher: ['/artist/:path']
+  matcher: ['/artist/:path', '/marketplace'],
+  
 };

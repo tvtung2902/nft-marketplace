@@ -13,7 +13,7 @@ export const getCollectionByCreator = async (userId: number):Promise<Collection[
     return response;
 }
 
-export const getCollectionByName = async (name: string):Promise<Collection[]> => {
+export const getCollectionByName = async (name: string= ''):Promise<Collection[]> => {
     await delay(500)
     const path:string = `${api}?name=${name}`;
     const response:Collection[] = await get(path);
