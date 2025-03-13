@@ -23,7 +23,7 @@ export const getItemCountByUserId= async (id: number):Promise<ItemCount> => {
 // fake data
 export const getUsersRanking = async (tab:string):Promise<User[]> =>{
     await delay(2000)
-    const path:string = `${api}?_sort=nfts_sold&_order=asc&tab=${tab}`;
+    const path:string = `${api}?_sort=nfts_sold&_order=asc&tab=${tab}&_limit=12`;
     const response:User[] = await get(path);
     return response;
 }

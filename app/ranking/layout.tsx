@@ -2,14 +2,18 @@ import { Metadata } from "next";
 import RankingTab from "./ranking-tab";
 import HeadLine from "../_component/headline";
 import RankingListUser from "./ranking-list-user";
-import ListUserRowSkeleton from "../_component/skeleton/user/list-user-row";
-import { Suspense } from "react";
+import UserRowSkeleton from "../_component/skeleton/user/user-row";
 
 export const metadata: Metadata = {
     title: "Ranking"
 };
 
-export default function RankingPage() {
+export default function LayoutRankingPage({
+    children,
+}: {
+    readonly children: React.ReactNode;
+}) {
+
     return (
         <>
             <section className="head lg:max-w-[1050px] md:max-w-[690px] max-w-[315px] mx-auto py-[80px]">
@@ -18,7 +22,6 @@ export default function RankingPage() {
 
             <section className="rankings lg:max-w-[1050px] md:max-w-[690px] max-w-[315px] mx-auto pb-10 flex flex-col gap-10">
                 <RankingTab />
-
                 <div className="rankings__wrap-table">
 
                     <div className="rankings__table flex flex-col gap-5">
@@ -32,9 +35,7 @@ export default function RankingPage() {
                             </div>
                         </div>
                         <div className="flex flex-col gap-5">
-                            <Suspense fallback={<ListUserRowSkeleton numberCard={10} />}>
-                                <RankingListUser tab='today' />
-                            </Suspense>
+                            {children}
                         </div>
                     </div>
                 </div>

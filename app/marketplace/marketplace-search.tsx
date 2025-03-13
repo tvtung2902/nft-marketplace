@@ -13,7 +13,6 @@ export default function MarketplaceSearch() {
     const searchType = isNftPage ? 'title' : 'name'
     const searchValue = searchParam.get(searchType) || ""
 
-    console.log("searchValue: ", searchValue)
     const [search, setSearch] = useState(searchValue)
     const placeholder = isNftPage
         ? "Search your favourite NFTs by title"
