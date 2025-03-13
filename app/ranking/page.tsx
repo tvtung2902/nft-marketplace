@@ -1,9 +1,11 @@
-import HeadLine from "../component/headline";
+import { Metadata } from "next";
 import RankingTab from "./ranking-tab";
-import RankingListUser from "./ranking-list-user";
-import { Suspense } from "react";
-import ListUserRowSkeleton from "../component/skeleton/user/list-user-row";
 import Temp from "./temp";
+import HeadLine from "../_component/headline";
+
+export const metadata: Metadata = {
+    title: "Ranking"
+};
 
 export default function RankingPage() {
     console.log("122");

@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function RankingUser({ user, index }: { user: User, index: number }) {
     return (
         <div >
-            <Link href="#" className="rankings__row-table rankings__row-table--body flex items-center justify-center rounded-2xl bg-tertiary md:py-3 md:px-5 px-2 py-3">
+            <Link href={`/artist/${user.id}`} className="rankings__row-table rankings__row-table--body trans-1 flex items-center justify-center rounded-2xl bg-tertiary md:py-3 md:px-5 px-2 py-3">
                 <div className="rankings__rank-number rankings__rank-number--body  md:w-[30px] md:mr-5 w-[24px] h-[24px] mr-2 flex items-center justify-center rounded-full lg:bg-background bg-tertiary md:h-[30px]">
                     <span className="text-start text-secondary font-space-mono md:text-[16px] text-[12px] font-normal leading-[140%]">
                         {index + 1}
