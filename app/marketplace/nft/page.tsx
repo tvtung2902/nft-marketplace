@@ -1,10 +1,10 @@
 'use client'
 import { getAllNftByTitle } from "@/app/_service/nftService";
 import { useSearchParams } from "next/navigation";
-import { Suspense, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { NFT } from "@/app/_interface/nft";
-import NftList from "@/app/component/nft/nft-list";
-import ListNFTCardSkeleton from "@/app/component/skeleton/nft/list-nft-card-skeleton";
+import NftList from "@/app/_component/nft/nft-list";
+import ListNFTCardSkeleton from "@/app/_component/skeleton/nft/list-nft-card-skeleton";
 
 export default function NftPage() {
     const params = useSearchParams()
@@ -25,7 +25,7 @@ export default function NftPage() {
     return (
        <>
          {loading && <ListNFTCardSkeleton numberCard={3}/>}
-         <NftList nfts={nfts} />
+         {!loading && <NftList nfts={nfts} />}
        </>
     )
 }

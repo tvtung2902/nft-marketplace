@@ -13,6 +13,7 @@ export default function MarketplaceSearch() {
     const searchType = isNftPage ? 'title' : 'name'
     const searchValue = searchParam.get(searchType) || ""
 
+    console.log("searchValue: ", searchValue)
     const [search, setSearch] = useState(searchValue)
     const placeholder = isNftPage
         ? "Search your favourite NFTs by title"
@@ -23,7 +24,7 @@ export default function MarketplaceSearch() {
     }
 
     const handleSubmit = () => {
-        router.replace(`${pathName}?${searchType}=${search}`)
+        router.push(`${pathName}?${searchType}=${search}`)
     }
 
     const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
@@ -32,7 +33,7 @@ export default function MarketplaceSearch() {
         }
     }
 
-    useEffect(() => {setSearch('')}, [pathName])
+    useEffect(() => {setSearch(searchValue)}, [pathName])
 
     return (
         <div className="flex py-3 px-5 border border-tertiary rounded-[20px] gap-5">

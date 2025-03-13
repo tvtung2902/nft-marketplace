@@ -3,10 +3,10 @@ import { get } from "../_util/request";
 
 const api:string = 'users'
 
-export const getUserById = async (id: number):Promise<User[]> => {
+export const getUserById = async (id: number):Promise<User> => {
     const path:string = `${api}?id=${id}`;
     const response:User[] = await get(path);
-    return response;
+    return response[0];
 }
 
 // hard code

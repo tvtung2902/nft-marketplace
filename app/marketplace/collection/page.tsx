@@ -1,10 +1,10 @@
 'use client'
 import { Collection } from "@/app/_interface/collection";
 import { getCollectionByName } from "@/app/_service/collectionService";
-import CollectionList from "@/app/component/collection/collection-list";
-import SkeletonCollectionCard from "@/app/component/skeleton/collection/collection-card";
-import ListCollectionCardSkeleton from "@/app/component/skeleton/collection/list-collection-card";
-import ListNFTCardSkeleton from "@/app/component/skeleton/nft/list-nft-card-skeleton";
+import CollectionList from "@/app/_component/collection/collection-list";
+import SkeletonCollectionCard from "@/app/_component/skeleton/collection/collection-card";
+import ListCollectionCardSkeleton from "@/app/_component/skeleton/collection/list-collection-card";
+import ListNFTCardSkeleton from "@/app/_component/skeleton/nft/list-nft-card-skeleton";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
