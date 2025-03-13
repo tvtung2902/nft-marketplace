@@ -2,11 +2,10 @@
 import { Collection } from "@/app/_interface/collection";
 import { getCollectionByName } from "@/app/_service/collectionService";
 import CollectionList from "@/app/_component/collection/collection-list";
-import SkeletonCollectionCard from "@/app/_component/skeleton/collection/collection-card";
 import ListCollectionCardSkeleton from "@/app/_component/skeleton/collection/list-collection-card";
-import ListNFTCardSkeleton from "@/app/_component/skeleton/nft/list-nft-card-skeleton";
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
+import EmptyData from "@/app/_component/empty-data";
 
 export default function CollectionPage() {
     const params = useSearchParams()
@@ -25,8 +24,9 @@ export default function CollectionPage() {
         , [name])
     return (
         <>
-            {loading && <ListCollectionCardSkeleton numberCard={3} />}
-            <CollectionList collections={collections} />
+            {loading ? <ListCollectionCardSkeleton numberCard={3} /> :
+                collections?.length > 0 ? <CollectionList collections={collections} /> :
+                    <EmptyData />}
         </>
     )
 }

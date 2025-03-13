@@ -33,12 +33,13 @@ export default function MarketplaceSearch() {
         }
     }
 
-    useEffect(() => {setSearch(searchValue)}, [pathName])
+    useEffect(() => {setSearch(searchValue)}, [searchValue])
 
     return (
         <div className="flex py-3 px-5 border border-tertiary rounded-[20px] gap-5">
             <input
-                className="flex-1 text-gray-500 bg-background text-[16px] font-normal leading-[140%] outline-none"
+                className="flex-1 text-gray-500 bg-background text-[16px] font-normal leading-[140%] outline-none
+                placeholder:text-[12px] md:placeholder:text-[16px]"
                 type="text"
                 placeholder={placeholder}
                 value={search}

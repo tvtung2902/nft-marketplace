@@ -14,7 +14,7 @@ export default async function LayoutMarketplace({
 }: {
     readonly children: React.ReactNode;
 }) {
-    // if(true) return null
+
     const nftsCountPromise = getAllNftsCount();
     const collectionsCountPromise = getAllCollectionsCount()
     // parallel

@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { NFT } from "@/app/_interface/nft";
 import NftList from "@/app/_component/nft/nft-list";
 import ListNFTCardSkeleton from "@/app/_component/skeleton/nft/list-nft-card-skeleton";
+import EmptyData from "@/app/_component/empty-data";
 
 export default function NftPage() {
     const params = useSearchParams()
@@ -24,8 +25,8 @@ export default function NftPage() {
         , [title])
     return (
        <>
-         {loading && <ListNFTCardSkeleton numberCard={3}/>}
-         {!loading && <NftList nfts={nfts} />}
+         {loading ? <ListNFTCardSkeleton numberCard={3}/>: 
+         nfts?.length ? <NftList nfts={nfts} /> : <EmptyData />}
        </>
     )
 }
