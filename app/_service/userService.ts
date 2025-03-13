@@ -1,5 +1,6 @@
 import { User } from "../_interface/user";
-import { get } from "../_util/request";
+import { UserSignUp } from "../_interface/user-sign-up";
+import { get, post } from "../_util/request";
 
 const api:string = 'users'
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -10,6 +11,13 @@ export const getUserById = async (id: number):Promise<User> => {
     const response:User[] = await get(path);
     return response[0];
 }
+
+export const isExistUser = async (username: string): Promise<boolean> => {
+    const path: string = `${api}?username=${username}`;
+    const response: User[] = await get(path);
+    return response.length > 0;
+};
+
 
 export const getTopArtist = async ():Promise<User[]> => {
     const path:string = `${api}?_limit=12`;
@@ -26,6 +34,17 @@ export const getItemCountByUserId= async (id: number):Promise<ItemCount> => {
     }
 }
 
+export const addUser = async (userSignUp: UserSignUp):Promise<number> =>{
+    await delay(1000)
+    try {
+       const response:User = await post(api, userSignUp)
+        return response.id
+    } catch (error) {
+        console.log('error', error)
+        return -1
+    } 
+}
+
 // fake data
 export const getUsersRanking = async (tab:string):Promise<User[]> =>{
     await delay(2000)
@@ -33,3 +52,5 @@ export const getUsersRanking = async (tab:string):Promise<User[]> =>{
     const response:User[] = await get(path);
     return response;
 }
+
+//
