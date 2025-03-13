@@ -11,7 +11,7 @@ const NFTCardSkeleton = () => {
       />
       <div className=" flex p-[20px_30px_25px_30px] flex-col gap-[25px] bg-background rounded-b-[20px]">
         <div className="flex flex-col gap-2.5">
-          <Skeleton.Input active style={{ width: 200, height: 30 }} />
+          <Skeleton.Input active style={{ width: 220, height: 30 }} />
           <div className="flex items-center gap-3">
             <Skeleton.Avatar active size={24} shape="circle" />
             <Skeleton.Input active size="small" style={{display: "flex",  height: 14 }} />

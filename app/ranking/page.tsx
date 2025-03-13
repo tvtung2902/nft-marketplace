@@ -2,13 +2,15 @@ import { Metadata } from "next";
 import RankingTab from "./ranking-tab";
 import Temp from "./temp";
 import HeadLine from "../_component/headline";
+import RankingListUser from "./ranking-list-user";
+import ListUserRowSkeleton from "../_component/skeleton/user/list-user-row";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
     title: "Ranking"
 };
 
 export default function RankingPage() {
-    console.log("122");
     return (
         <>
             <section className="head lg:max-w-[1050px] md:max-w-[690px] max-w-[315px] mx-auto py-[80px]">
@@ -31,7 +33,9 @@ export default function RankingPage() {
                             </div>
                         </div>
                         <div className="flex flex-col gap-5">
-                            <Temp tab = {'today'} />
+                            <Suspense fallback={<ListUserRowSkeleton numberCard={10} />}>
+                                <RankingListUser tab='today' />
+                            </Suspense>
                         </div>
                     </div>
                 </div>

@@ -1,345 +1,790 @@
 {
     "users": [
-        {
-            "id": 1,
-            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
-            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-36@2x.png",
-            "name": "Animakid",
-            "wallet_address": "0xc0E3...B79C",
-            "volume": "250k",
-            "total-sales": 34.53,
-            "nfts_sold": 50,
-            "bio": "The Internet's Friendliest Designer Kid.",
-            "created": 302,
-            "owned": 67,
-            "collections": 4,
-            "links": [
-                {
-                    "type": "website",
-                    "url": "https://animakid.com"
-                },
-                {
-                    "type": "discord",
-                    "url": "https://discord.com/invite/animakid"
-                },
-                {
-                    "type": "youtube",
-                    "url": "https://www.youtube.com/c/animakid"
-                },
-                {
-                    "type": "twitter",
-                    "url": "https://twitter.com/animakid"
-                },
-                {
-                    "type": "instagram",
-                    "url": "https://instagram.com/animakid"
-                }
-            ],
-            "follower":[2, 3, 4, 5],
-            "following": [2, 3, 6]
-        },
-        {
-            "id": 1,
-            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
-            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-24@2x.png",
-            "name": "Nolan Mango",
-            "wallet_address": "0xc0E3...B79C",
-            "volume": "250k",
-            "total-sales": 34.53,
-            "nfts_sold": 70,
-            "bio": "The Internet's Friendliest Designer Kid.",
-            "created": 302,
-            "owned": 67,
-            "collections": 4,
-            "links": [
-                {
-                    "type": "website",
-                    "url": "https://animakid.com"
-                },
-                {
-                    "type": "discord",
-                    "url": "https://discord.com/invite/animakid"
-                },
-                {
-                    "type": "youtube",
-                    "url": "https://www.youtube.com/c/animakid"
-                },
-                {
-                    "type": "twitter",
-                    "url": "https://twitter.com/animakid"
-                },
-                {
-                    "type": "instagram",
-                    "url": "https://instagram.com/animakid"
-                }
-            ],
-            "follower":[2, 3, 4, 5],
-            "following": [2, 3, 6]
-        },
-        {
-            "id": 3,
-            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
-            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-36@2x.png",
-            "name": "Animakid",
-            "wallet_address": "0xc0E3...B79C",
-            "volume": "250k",
-            "total-sales": 34.53,
-            "nfts_sold": 50,
-            "bio": "The Internet's Friendliest Designer Kid.",
-            "created": 302,
-            "owned": 67,
-            "collections": 4,
-            "links": [
-                {
-                    "type": "website",
-                    "url": "https://animakid.com"
-                },
-                {
-                    "type": "discord",
-                    "url": "https://discord.com/invite/animakid"
-                },
-                {
-                    "type": "youtube",
-                    "url": "https://www.youtube.com/c/animakid"
-                },
-                {
-                    "type": "twitter",
-                    "url": "https://twitter.com/animakid"
-                },
-                {
-                    "type": "instagram",
-                    "url": "https://instagram.com/animakid"
-                }
-            ],
-            "follower":[2, 3, 4, 5],
-            "following": [2, 3, 6]
-        },
-        {
-            "id": 1,
-            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
-            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-24@2x.png",
-            "name": "Nolan Mango",
-            "wallet_address": "0xc0E3...B79C",
-            "volume": "250k",
-            "total-sales": 34.53,
-            "nfts_sold": 70,
-            "bio": "The Internet's Friendliest Designer Kid.",
-            "created": 302,
-            "owned": 67,
-            "collections": 4,
-            "links": [
-                {
-                    "type": "website",
-                    "url": "https://animakid.com"
-                },
-                {
-                    "type": "discord",
-                    "url": "https://discord.com/invite/animakid"
-                },
-                {
-                    "type": "youtube",
-                    "url": "https://www.youtube.com/c/animakid"
-                },
-                {
-                    "type": "twitter",
-                    "url": "https://twitter.com/animakid"
-                },
-                {
-                    "type": "instagram",
-                    "url": "https://instagram.com/animakid"
-                }
-            ],
-            "follower":[2, 3, 4, 5],
-            "following": [2, 3, 6]
-        },
-        {
-            "id": 1,
-            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
-            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-36@2x.png",
-            "name": "Animakid",
-            "wallet_address": "0xc0E3...B79C",
-            "volume": "250k",
-            "total-sales": 34.53,
-            "nfts_sold": 50,
-            "bio": "The Internet's Friendliest Designer Kid.",
-            "created": 302,
-            "owned": 67,
-            "collections": 4,
-            "links": [
-                {
-                    "type": "website",
-                    "url": "https://animakid.com"
-                },
-                {
-                    "type": "discord",
-                    "url": "https://discord.com/invite/animakid"
-                },
-                {
-                    "type": "youtube",
-                    "url": "https://www.youtube.com/c/animakid"
-                },
-                {
-                    "type": "twitter",
-                    "url": "https://twitter.com/animakid"
-                },
-                {
-                    "type": "instagram",
-                    "url": "https://instagram.com/animakid"
-                }
-            ],
-            "follower":[2, 3, 4, 5],
-            "following": [2, 3, 6]
-        },
-        {
-            "id": 1,
-            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
-            "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-24@2x.png",
-            "name": "Nolan Mango",
-            "wallet_address": "0xc0E3...B79C",
-            "volume": "250k",
-            "total-sales": 34.53,
-            "nfts_sold": 70,
-            "bio": "The Internet's Friendliest Designer Kid.",
-            "created": 302,
-            "owned": 67,
-            "collections": 4,
-            "links": [
-                {
-                    "type": "website",
-                    "url": "https://animakid.com"
-                },
-                {
-                    "type": "discord",
-                    "url": "https://discord.com/invite/animakid"
-                },
-                {
-                    "type": "youtube",
-                    "url": "https://www.youtube.com/c/animakid"
-                },
-                {
-                    "type": "twitter",
-                    "url": "https://twitter.com/animakid"
-                },
-                {
-                    "type": "instagram",
-                    "url": "https://instagram.com/animakid"
-                }
-            ],
-            "follower":[2, 3, 4, 5],
-            "following": [2, 3, 6]
-        }
+      {
+        "id": "1",
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+        "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-36@2x.png",
+        "name": "Animakid",
+        "wallet_address": "0xc0E3...B79C",
+        "volume": "250k",
+        "total_sales": 34.53,
+        "nfts_sold": 50,
+        "bio": "The Internet's Friendliest Designer Kid.",
+        "created": 302,
+        "owned": 67,
+        "collections": 4,
+        "links": [
+          {
+            "type": "website",
+            "url": "https://animakid.com"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/invite/animakid"
+          },
+          {
+            "type": "youtube",
+            "url": "https://www.youtube.com/c/animakid"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/animakid"
+          },
+          {
+            "type": "instagram",
+            "url": "https://instagram.com/animakid"
+          }
+        ],
+        "follower": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "following": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "2",
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+        "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-98@2x.png",
+        "name": "Nolan Mango",
+        "wallet_address": "0xc0E3...B79C",
+        "volume": "250k",
+        "total_sales": 30.53,
+        "nfts_sold": 70,
+        "bio": "The Internet's Friendliest Designer Kid.",
+        "created": 302,
+        "owned": 67,
+        "collections": 4,
+        "links": [
+          {
+            "type": "website",
+            "url": "https://animakid.com"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/invite/animakid"
+          },
+          {
+            "type": "youtube",
+            "url": "https://www.youtube.com/c/animakid"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/animakid"
+          },
+          {
+            "type": "instagram",
+            "url": "https://instagram.com/animakid"
+          }
+        ],
+        "follower": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "following": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "3",
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+        "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-99@2x.png",
+        "name": "Digilab",
+        "wallet_address": "0xc0E3...B79C",
+        "volume": "250k",
+        "total_sales": 34.53,
+        "nfts_sold": 50,
+        "bio": "The Internet's Friendliest Designer Kid.",
+        "created": 302,
+        "owned": 67,
+        "collections": 4,
+        "links": [
+          {
+            "type": "website",
+            "url": "https://animakid.com"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/invite/animakid"
+          },
+          {
+            "type": "youtube",
+            "url": "https://www.youtube.com/c/animakid"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/animakid"
+          },
+          {
+            "type": "instagram",
+            "url": "https://instagram.com/animakid"
+          }
+        ],
+        "follower": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "following": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "4",
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+        "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-100@2x.png",
+        "name": "Gravityone",
+        "wallet_address": "0xc0E3...B79C",
+        "volume": "250k",
+        "total_sales": 30.53,
+        "nfts_sold": 70,
+        "bio": "The Internet's Friendliest Designer Kid.",
+        "created": 302,
+        "owned": 67,
+        "collections": 4,
+        "links": [
+          {
+            "type": "website",
+            "url": "https://animakid.com"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/invite/animakid"
+          },
+          {
+            "type": "youtube",
+            "url": "https://www.youtube.com/c/animakid"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/animakid"
+          },
+          {
+            "type": "instagram",
+            "url": "https://instagram.com/animakid"
+          }
+        ],
+        "follower": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "following": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "5",
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+        "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-101@2x.png",
+        "name": "Juanie",
+        "wallet_address": "0xc0E3...B79C",
+        "volume": "250k",
+        "total_sales": 34.13,
+        "nfts_sold": 50,
+        "bio": "The Internet's Friendliest Designer Kid.",
+        "created": 302,
+        "owned": 67,
+        "collections": 4,
+        "links": [
+          {
+            "type": "website",
+            "url": "https://animakid.com"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/invite/animakid"
+          },
+          {
+            "type": "youtube",
+            "url": "https://www.youtube.com/c/animakid"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/animakid"
+          },
+          {
+            "type": "instagram",
+            "url": "https://instagram.com/animakid"
+          }
+        ],
+        "follower": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "following": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "6",
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+        "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-1@2x.png",
+        "name": "Fox",
+        "wallet_address": "0xc0E3...B79C",
+        "volume": "250k",
+        "total_sales": 29.3,
+        "nfts_sold": 70,
+        "bio": "The Internet's Friendliest Designer Kid.",
+        "created": 302,
+        "owned": 67,
+        "collections": 4,
+        "links": [
+          {
+            "type": "website",
+            "url": "https://animakid.com"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/invite/animakid"
+          },
+          {
+            "type": "youtube",
+            "url": "https://www.youtube.com/c/animakid"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/animakid"
+          },
+          {
+            "type": "instagram",
+            "url": "https://instagram.com/animakid"
+          }
+        ],
+        "follower": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "following": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "7",
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+        "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-103@2x.png",
+        "name": "Shroomie",
+        "wallet_address": "0xc0E3...B79C",
+        "volume": "250k",
+        "total_sales": 31.53,
+        "nfts_sold": 50,
+        "bio": "The Internet's Friendliest Designer Kid.",
+        "created": 302,
+        "owned": 67,
+        "collections": 4,
+        "links": [
+          {
+            "type": "website",
+            "url": "https://animakid.com"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/invite/animakid"
+          },
+          {
+            "type": "youtube",
+            "url": "https://www.youtube.com/c/animakid"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/animakid"
+          },
+          {
+            "type": "instagram",
+            "url": "https://instagram.com/animakid"
+          }
+        ],
+        "follower": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "following": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "8",
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+        "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-104@2x.png",
+        "name": "Robotica",
+        "wallet_address": "0xc0E3...B79C",
+        "volume": "250k",
+        "total_sales": 29.12,
+        "nfts_sold": 70,
+        "bio": "The Internet's Friendliest Designer Kid.",
+        "created": 302,
+        "owned": 67,
+        "collections": 4,
+        "links": [
+          {
+            "type": "website",
+            "url": "https://animakid.com"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/invite/animakid"
+          },
+          {
+            "type": "youtube",
+            "url": "https://www.youtube.com/c/animakid"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/animakid"
+          },
+          {
+            "type": "instagram",
+            "url": "https://instagram.com/animakid"
+          }
+        ],
+        "follower": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "following": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "9",
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+        "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-105@2x.png",
+        "name": "Rustyrobot",
+        "wallet_address": "0xc0E3...B79C",
+        "volume": "250k",
+        "total_sales": 28.53,
+        "nfts_sold": 50,
+        "bio": "The Internet's Friendliest Designer Kid.",
+        "created": 302,
+        "owned": 67,
+        "collections": 4,
+        "links": [
+          {
+            "type": "website",
+            "url": "https://animakid.com"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/invite/animakid"
+          },
+          {
+            "type": "youtube",
+            "url": "https://www.youtube.com/c/animakid"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/animakid"
+          },
+          {
+            "type": "instagram",
+            "url": "https://instagram.com/animakid"
+          }
+        ],
+        "follower": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "following": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "10",
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+        "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-107@2x.png",
+        "name": "Dotgu",
+        "wallet_address": "0xc0E3...B79C",
+        "volume": "250k",
+        "total_sales": 28.44,
+        "nfts_sold": 70,
+        "bio": "The Internet's Friendliest Designer Kid.",
+        "created": 302,
+        "owned": 67,
+        "collections": 4,
+        "links": [
+          {
+            "type": "website",
+            "url": "https://animakid.com"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/invite/animakid"
+          },
+          {
+            "type": "youtube",
+            "url": "https://www.youtube.com/c/animakid"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/animakid"
+          },
+          {
+            "type": "instagram",
+            "url": "https://instagram.com/animakid"
+          }
+        ],
+        "follower": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "following": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "11",
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+        "avatar": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/avatar-placeholder-108@2x.png",
+        "name": "Ghiblier",
+        "wallet_address": "0xc0E3...B79C",
+        "volume": "250k",
+        "total_sales": 27.11,
+        "nfts_sold": 70,
+        "bio": "The Internet's Friendliest Designer Kid.",
+        "created": 302,
+        "owned": 67,
+        "collections": 4,
+        "links": [
+          {
+            "type": "website",
+            "url": "https://animakid.com"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/invite/animakid"
+          },
+          {
+            "type": "youtube",
+            "url": "https://www.youtube.com/c/animakid"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/animakid"
+          },
+          {
+            "type": "instagram",
+            "url": "https://instagram.com/animakid"
+          }
+        ],
+        "follower": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "following": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "12",
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-17@1x.png",
+        "avatar": "https://www.queppelin.com/wp-content/uploads/2021/12/Momento-quater-mascot-nft.jpg",
+        "name": "Nolan Mango",
+        "wallet_address": "0xc0E3...B79C",
+        "volume": "250k",
+        "total_sales": 34.53,
+        "nfts_sold": 70,
+        "bio": "The Internet's Friendliest Designer Kid.",
+        "created": 302,
+        "owned": 67,
+        "collections": 4,
+        "links": [
+          {
+            "type": "website",
+            "url": "https://animakid.com"
+          },
+          {
+            "type": "discord",
+            "url": "https://discord.com/invite/animakid"
+          },
+          {
+            "type": "youtube",
+            "url": "https://www.youtube.com/c/animakid"
+          },
+          {
+            "type": "twitter",
+            "url": "https://twitter.com/animakid"
+          },
+          {
+            "type": "instagram",
+            "url": "https://instagram.com/animakid"
+          }
+        ],
+        "follower": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "following": [
+          2,
+          3,
+          6
+        ]
+      },
+      {
+        "id": "8b81",
+        "username": "",
+        "email": "",
+        "password": ""
+      },
+      {
+        "id": "0f02",
+        "username": "",
+        "email": "",
+        "password": ""
+      }
     ],
     "nfts": [
-        {
-            "nft": {
-                "id": 1,
-                "title": "The Orbitans",
-                "minted_on": "2022-09-30",
-                "owner_id": 2,
-                "creator_id": 1,
-                "description": "<p>The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,</p><p>There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch areOrbitians.</p> <br><br><p>They live in a metal space machines, high up in the sky and only have one foot on Earth.</p><br><br><p>These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.</p>",
-                "auction_end": "4/02/2025",
-                "price": "1.63 ETH",
-                "highest_bid": "0.33 wETH",
-                "details": {
-                    "etherscan_url": "https://etherscan.io/address/...",
-                    "original_url": "https://example.com/the-orbitans-original"
-                },
-                "tags": [
-                    "Animation",
-                    "Illustration",
-                    "Moon",
-                    "Migration"
-                ]
-            }
-        }
+      {
+        "id": "1",
+        "image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-31@2x.png",
+        "title": "Magic Mushroom",
+        "minted_on": "2022-09-30",
+        "owner_id": 2,
+        "creator_id": 1,
+        "description": "<p>The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,</p><p>There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch areOrbitians.</p> <br><br><p>They live in a metal space machines, high up in the sky and only have one foot on Earth.</p><br><br><p>These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.</p>",
+        "auction_end": "4/02/2025",
+        "price": "1.99 ETH",
+        "highest_bid": "0.50 wETH",
+        "etherscan_url": "https://etherscan.io/address/...",
+        "original_url": "https://example.com/the-orbitans-original",
+        "tags": [
+          "Animation",
+          "Illustration",
+          "Moon",
+          "Migration"
+        ]
+      },
+      {
+        "id": "3",
+        "image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-32@2x.png",
+        "title": "Happy Robot 032",
+        "minted_on": "2022-09-30",
+        "owner_id": 1,
+        "creator_id": 1,
+        "description": "<p>The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,</p><p>There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch areOrbitians.</p> <br><br><p>They live in a metal space machines, high up in the sky and only have one foot on Earth.</p><br><br><p>These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.</p>",
+        "auction_end": "4/02/2025",
+        "price": "1.69 ETH",
+        "highest_bid": "0.63 wETH",
+        "etherscan_url": "https://etherscan.io/address/...",
+        "original_url": "https://example.com/the-orbitans-original",
+        "tags": [
+          "Animation",
+          "Illustration",
+          "Moon",
+          "Migration"
+        ]
+      },
+      {
+        "id": "4",
+        "image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-33@2x.png",
+        "title": "Designer Bear",
+        "minted_on": "2022-09-30",
+        "owner_id": 1,
+        "creator_id": 1,
+        "description": "<p>The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,</p><p>There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch areOrbitians.</p> <br><br><p>They live in a metal space machines, high up in the sky and only have one foot on Earth.</p><br><br><p>These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.</p>",
+        "auction_end": "4/02/2025",
+        "price": "1.68 ETH",
+        "highest_bid": "0.44 wETH",
+        "etherscan_url": "https://etherscan.io/address/...",
+        "original_url": "https://example.com/the-orbitans-original",
+        "tags": [
+          "Animation",
+          "Illustration",
+          "Moon",
+          "Migration"
+        ]
+      },
+      {
+        "id": "5",
+        "image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-34@2x.png",
+        "title": "Colorful Dog 0356",
+        "minted_on": "2022-09-30",
+        "owner_id": 1,
+        "creator_id": 1,
+        "description": "<p>The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,</p><p>There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch areOrbitians.</p> <br><br><p>They live in a metal space machines, high up in the sky and only have one foot on Earth.</p><br><br><p>These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.</p>",
+        "auction_end": "4/02/2025",
+        "price": "1.56 ETH",
+        "highest_bid": "0.33 wETH",
+        "etherscan_url": "https://etherscan.io/address/...",
+        "original_url": "https://example.com/the-orbitans-original",
+        "tags": [
+          "Animation",
+          "Illustration",
+          "Moon",
+          "Migration"
+        ]
+      },
+      {
+        "id": "6",
+        "image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-35@2x.png",
+        "title": "Dancing Robot 0312",
+        "minted_on": "2022-09-30",
+        "owner_id": 1,
+        "creator_id": 1,
+        "description": "<p>The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,</p><p>There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch areOrbitians.</p> <br><br><p>They live in a metal space machines, high up in the sky and only have one foot on Earth.</p><br><br><p>These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.</p>",
+        "auction_end": "4/02/2025",
+        "price": "1.66 ETH",
+        "highest_bid": "0.54 wETH",
+        "etherscan_url": "https://etherscan.io/address/...",
+        "original_url": "https://example.com/the-orbitans-original",
+        "tags": [
+          "Animation",
+          "Illustration",
+          "Moon",
+          "Migration"
+        ]
+      },
+      {
+        "id": "7",
+        "image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-5@2x.png",
+        "title": "The Orbitans",
+        "minted_on": "2022-09-30",
+        "owner_id": 1,
+        "creator_id": 1,
+        "description": "<p>The Orbitians is a collection of 10,000 unique NFTs on the Ethereum blockchain,</p><p>There are all sorts of beings in the NFT Universe. The most advanced and friendly of the bunch areOrbitians.</p> <br><br><p>They live in a metal space machines, high up in the sky and only have one foot on Earth.</p><br><br><p>These Orbitians are a peaceful race, but they have been at war with a group of invaders for many generations. The invaders are called Upside-Downs, because of their inverted bodies that live on the ground, yet do not know any other way to be. Upside-Downs believe that they will be able to win this war if they could only get an eye into Orbitian territory, so they've taken to make human beings their target.</p>",
+        "auction_end": "4/02/2025",
+        "price": "1.73 ETH",
+        "highest_bid": "0.53 wETH",
+        "etherscan_url": "https://etherscan.io/address/...",
+        "original_url": "https://example.com/the-orbitans-original",
+        "tags": [
+          "Animation",
+          "Illustration",
+          "Moon",
+          "Migration"
+        ]
+      }
     ],
     "collections": [
-        {
-            "id": 1,
-            "name": "Dsğn Animals",
-            "author": 1,
-            "nft_count": 1025,
-            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/primary-photo-placeholder-1@2x.png",
-            "preview_images": [
-                "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/secondary-photo-placeholder@2x.png",
-                "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/secondary-photo-placeholder-1@2x.png"
-            ],
-            "category": 1
-        },
-        {
-            "id": 2,
-            "name": "Magic Mushrooms",
-            "author": 1,
-            "nft_count": 1025,
-            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/primary-photo-placeholder@2x.png",
-            "preview_images": [
-                "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/secondary-photo-placeholder-2@2x.png",
-                "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/secondary-photo-placeholder-2@2x.png"
-            ],
-            "category": 1
-        },
-        {
-            "id": 3,
-            "name": "Disco Machines",
-            "author": 1,
-            "nft_count": 1025,
-            "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/primary-photo-placeholder-5@2x.png",
-            "preview_images": [
-                "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/secondary-photo-placeholder-10@2x.png",
-                "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/secondary-photo-placeholder-11@2x.png"
-            ],
-            "category": 4
-        }
+      {
+        "id": "1",
+        "name": "Dsğn Animals",
+        "userId": 1,
+        "nft_count": 1025,
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/primary-photo-placeholder-1@2x.png",
+        "preview_images": [
+          "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/secondary-photo-placeholder@2x.png",
+          "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/secondary-photo-placeholder-1@2x.png"
+        ],
+        "category": 1
+      },
+      {
+        "id": "2",
+        "name": "Magic Mushrooms",
+        "userId": 1,
+        "nft_count": 1025,
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/primary-photo-placeholder@2x.png",
+        "preview_images": [
+          "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/secondary-photo-placeholder-2@2x.png",
+          "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/secondary-photo-placeholder-2@2x.png"
+        ],
+        "category": 1
+      },
+      {
+        "id": "3",
+        "name": "Disco Machines",
+        "userId": 1,
+        "nft_count": 1025,
+        "cover_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/primary-photo-placeholder-5@2x.png",
+        "preview_images": [
+          "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/secondary-photo-placeholder-10@2x.png",
+          "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/secondary-photo-placeholder-11@2x.png"
+        ],
+        "category": 4
+      }
     ],
     "categories": [
-        {
-          "id": 1,
-          "name": "Art",
-          "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/paintbrush-1@2x.svg",
-          "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-57@2x.png"
-        },
-        {
-          "id": 2,
-          "name": "Collectibles",
-          "icon_url": "https://example.com/icons/collectibles.svg",
-          "background_image": "https://example.com/images/bg-collectibles.jpg"
-        },
-        {
-          "id": 3,
-          "name": "Music",
-          "icon_url": "https://example.com/icons/music.svg",
-          "background_image": "https://example.com/images/bg-music.jpg"
-        },
-        {
-          "id": 4,
-          "name": "Photography",
-          "icon_url": "https://example.com/icons/photography.svg",
-          "background_image": "https://example.com/images/bg-photography.jpg"
-        },
-        {
-          "id": 5,
-          "name": "Video",
-          "icon_url": "https://example.com/icons/video.svg",
-          "background_image": "https://example.com/images/bg-video.jpg"
-        },
-        {
-          "id": 6,
-          "name": "Utility",
-          "icon_url": "https://example.com/icons/utility.svg",
-          "background_image": "https://example.com/images/bg-utility.jpg"
-        },
-        {
-          "id": 7,
-          "name": "Sport",
-          "icon_url": "https://example.com/icons/sport.svg",
-          "background_image": "https://example.com/images/bg-sport.jpg"
-        },
-        {
-          "id": 8,
-          "name": "Virtual Worlds",
-          "icon_url": "https://example.com/icons/virtual-worlds.svg",
-          "background_image": "https://example.com/images/bg-virtual-worlds.jpg"
-        }
+      {
+        "id": "1",
+        "name": "Art",
+        "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/paintbrush-1@2x.svg",
+        "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-54@2x.png"
+      },
+      {
+        "id": "2",
+        "name": "Collectibles",
+        "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/swatches-1@2x.svg",
+        "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-55@2x.png"
+      },
+      {
+        "id": "3",
+        "name": "Music",
+        "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/musicnotes-1@2x.svg",
+        "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-56@2x.png"
+      },
+      {
+        "id": "4",
+        "name": "Photography",
+        "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/camera-1@2x.svg",
+        "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-57@2x.png"
+      },
+      {
+        "id": "5",
+        "name": "Video",
+        "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/videocamera-1@2x.svg",
+        "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-58@2x.png"
+      },
+      {
+        "id": "6",
+        "name": "Utility",
+        "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/magicwand-1@2x.svg",
+        "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-59@2x.png"
+      },
+      {
+        "id": "7",
+        "name": "Sport",
+        "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/basketball-1@2x.svg",
+        "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-60@2x.png"
+      },
+      {
+        "id": "8",
+        "name": "Virtual Worlds",
+        "icon_url": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/planet-1@2x.svg",
+        "background_image": "https://cdn.animaapp.com/projects/63aaf7e2426e9824f0350c11/releases/63aaf8f2426e9824f0350c13/img/image-placeholder-61@2x.png"
+      }
     ]
-}
+  }
