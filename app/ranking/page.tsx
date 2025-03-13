@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import RankingTab from "./ranking-tab";
-import Temp from "./temp";
 import HeadLine from "../_component/headline";
 import RankingListUser from "./ranking-list-user";
 import ListUserRowSkeleton from "../_component/skeleton/user/list-user-row";
