@@ -2,6 +2,10 @@
 
 A modern and responsive NFT Marketplace built with **Next.js**, **TypeScript**, and **Ant Design**. This project provides a sleek user interface for browsing, creating, and purchasing NFTs.
 
+## Demo
+
+**You can watch the video demo [here](https://www.youtube.com/watch?v=S-FJUp7lzoA)**
+
 ## Tech Stack
 
 - **Next.js** – React framework for server-side rendering and routing  
