@@ -4,7 +4,7 @@ A modern and responsive NFT Marketplace built with **Next.js**, **TypeScript**, 
 
 ## Demo
 
-**You can watch the video demo [here](https://www.youtube.com/watch?v=S-FJUp7lzoA)**
+**You can watch the video demo [here](https://drive.google.com/file/d/1V2BUCpxrmBsS7fhoKxe-Msw6He2zoTFw/view?usp=drive_link)**
 
 ## Tech Stack
 
